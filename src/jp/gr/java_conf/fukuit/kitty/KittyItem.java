@@ -1,4 +1,4 @@
-package com.example.kitty;
+package jp.gr.java_conf.fukuit.kitty;
 public class KittyItem {
 	private final double apple_weight=0.300;
 	private final double apple_height=10.0;
