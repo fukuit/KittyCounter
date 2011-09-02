@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/LinearLayout04"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<LinearLayout android:id="@+id/LinearLayout03"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<LinearLayout android:id="@+id/LinearLayout01"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:orientation="horizontal">
+				<TextView android:text="@string/height" android:id="@+id/TextView01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:typeface="monospace" />
+				<EditText android:text="@string/height_init" android:id="@+id/height"
+					android:layout_width="@dimen/inputAreaWidth" android:layout_height="wrap_content"
+					android:typeface="monospace" android:inputType="number" />
+				<TextView android:text="@string/height_unit" android:id="@+id/TextView03"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:typeface="monospace" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout02"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:orientation="horizontal">
+				<TextView android:text="@string/weight" android:id="@+id/TextView02"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:typeface="monospace" />
+				<EditText android:text="@string/weight_init" android:id="@+id/weight"
+					android:layout_width="@dimen/inputAreaWidth" android:layout_height="wrap_content"
+					android:typeface="monospace" android:inputType="number" />
+				<TextView android:text="@string/weight_unit" android:id="@+id/TextView04"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:typeface="monospace" />
+			</LinearLayout>
+		</LinearLayout>
+		<Button android:text="@string/btn" android:id="@+id/exec_btn"
+			android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	</LinearLayout>
+	<ListView android:id="@android:id/list" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:scrollbars="vertical"
+		android:scrollbarStyle="outsideInset" android:smoothScrollbar="true" />
+	<TextView android:id="@android:id/empty" android:text="@string/no_list"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, KittyCounter!</string>
+	<string name="app_name">KittyCounter</string>
+	<string name="btn">換算</string>
+	<string name="height">身長</string>
+	<string name="weight">体重</string>
+	<string name="height_unit">cm</string>
+	<string name="weight_unit">kg</string>
+	<string name="height_init">180</string>
+	<string name="weight_init">75</string>
+	<string name="no_list">No Data.</string>
+	<string name="menu_delete">削除</string>
+</resources>
