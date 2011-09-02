@@ -1,7 +1,5 @@
 package jp.gr.java_conf.fukuit.kitty;
 
-import com.example.kitty.R;
-
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.view.ContextMenu;

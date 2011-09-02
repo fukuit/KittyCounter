@@ -40,6 +40,7 @@ public class KittyItem {
 		this.convertedWeight=0;
 		this.convertedHeight=0;
 	}	
+	@Override
 	public String toString(){
 		StringBuilder sb = new StringBuilder();
 		sb.append("g’·: ‚è‚ñ‚²").append(this.convertedHeight).append("ŒÂ•ª / ‘Ìd: ‚è‚ñ‚²").append(this.convertedWeight).append("ŒÂ•ª");
